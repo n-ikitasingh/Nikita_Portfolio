@@ -52,8 +52,8 @@ export const projects: Project[] = [
       architecture: "Brief-to-milestone parser → escrow ledger with row-level security → LLM evaluation pipeline (LLaMA 3 via Groq) → decision engine → payout/partial/refund flows. Reputation tracked via Professional Fidelity Index.",
       result: "End-to-end autonomous contract execution with measurable evaluation, secure data boundaries, and zero-trust payment release.",
     },
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://nexus-escrow.netlify.app/",
+    githubUrl: "https://github.com/n-ikitasingh/Nexus-escrow",
   },
   {
     id: 2,
@@ -145,7 +145,7 @@ export const projects: Project[] = [
   {
     id: 5,
     title: "AI Therapy Chatbot",
-    codename: "MIND-AI",
+    codename: "MIND-AURA",
     tagline: "Conversational AI for structured emotional interaction and context.",
     description:
       "Dialog system that maintains conversational context across turns and structures emotional responses.",
@@ -168,7 +168,7 @@ export const projects: Project[] = [
       architecture: "Intent classifier (Dialogflow) → multi-turn context manager with slot tracking → response template engine with tone constraints → conversation state persistence.",
       result: "Maintains coherent multi-turn dialog with controlled tone, suitable for guided emotional support workflows.",
     },
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://mind-aura-two.vercel.app/",
+    githubUrl: "https://github.com/n-ikitasingh/Mind-Aura",
   },
 ];
