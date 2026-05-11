@@ -60,7 +60,7 @@ export const CaseFileModal = ({ project, isOpen, onClose }: CaseFileModalProps) 
             <div className="relative min-h-full overflow-hidden rounded-lg border border-border bg-card/90 backdrop-blur-xl shadow-2xl">
               <div className="absolute inset-0 pointer-events-none opacity-25 bg-[radial-gradient(circle_at_20%_10%,hsl(var(--primary)/0.12),transparent_35%),radial-gradient(circle_at_90%_90%,hsl(var(--primary)/0.08),transparent_35%)]" />
 
-              <div className="relative z-10 p-5 md:p-8 lg:p-10">
+              <div className="relative z-10 px-5 pb-5 pt-20 md:px-8 md:pb-8 md:pt-16 lg:px-10 lg:pb-10 lg:pt-12">
                 <header className="flex items-start justify-between gap-4 pb-6 border-b border-border">
                   <div className="min-w-0">
                     <div className="flex items-center gap-3 mb-3 flex-wrap">
