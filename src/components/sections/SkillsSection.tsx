@@ -177,7 +177,7 @@ export const SkillsSection = () => {
     <SectionWrapper id="skills" title="Capability Architecture" subtitle="// 03 · INTEL · CAPABILITIES">
       <div className="grid lg:grid-cols-[260px_1fr] gap-6">
         <ScrollReveal>
-          <div className="flex flex-wrap lg:flex-col gap-2 overflow-hidden pb-2 lg:pb-0">
+          <div className="flex flex-wrap gap-2 lg:flex-col pb-2 lg:pb-0">
             {categories.map((cat) => {
               const Icon = cat.icon;
               const isActive = cat.id === active;
@@ -186,7 +186,7 @@ export const SkillsSection = () => {
                   key={cat.id}
                   type="button"
                   onClick={() => setActive(cat.id)}
-                  className={`text-left rounded-md border px-4 py-3 transition-colors w-full sm:w-auto lg:w-full ${
+                  className={`text-left rounded-md border px-4 py-3 transition-colors flex-1 min-w-[140px] lg:w-full ${
                     isActive
                       ? "border-primary bg-primary/10 text-foreground shadow-neon"
                       : "border-border bg-card/50 text-muted-foreground hover:text-foreground hover:border-primary/40"
