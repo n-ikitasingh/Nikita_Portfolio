@@ -56,7 +56,64 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/n-ikitasingh/Nexus-escrow",
   },
   {
-    id: 2,
+  id: 2,
+  title: "RosterIQ — Memory-Driven Analytics Copilot",
+  codename: "ROSTERIQ",
+  tagline: "Agentic analytics system with conversational querying, semantic memory, and real-time data reasoning.",
+  description:
+    "An AI-powered analytics copilot that transforms raw datasets into actionable insights through conversational workflows, memory-aware reasoning, SQL generation, and interactive data exploration.",
+
+  technologies: [
+    "React",
+    "TypeScript",
+    "TanStack Start",
+    "Supabase",
+    "Cloudflare Workers",
+    "TailwindCSS",
+    "Vite"
+  ],
+
+  status: "ACTIVE",
+
+  stats: [
+    { label: "Deployment", value: "Cloudflare" },
+    { label: "Architecture", value: "Agentic AI" },
+    { label: "Memory Layers", value: "3" },
+  ],
+
+  simple: {
+    problem:
+      "Business datasets are difficult to explore for non-technical users, especially when insights require SQL knowledge or memory of previous analysis.",
+      
+    approach:
+      "RosterIQ lets users ask questions in plain English while the AI handles query planning, reasoning, and contextual memory automatically.",
+
+    architecture:
+      "Conversational UI → reasoning engine → SQL generation → Supabase execution → memory-aware analytics pipeline.",
+
+    result:
+      "Users can explore structured datasets conversationally without writing SQL or navigating complex dashboards.",
+  },
+
+  technical: {
+    problem:
+      "Traditional BI dashboards lack adaptive reasoning, conversational interfaces, and persistent memory across analytical workflows.",
+
+    approach:
+      "Built a memory-driven analytics copilot using TanStack Start, Supabase, and Cloudflare Workers with support for semantic recall, conversational querying, and agentic reasoning traces.",
+
+    architecture:
+      "Frontend built with React + TanStack Start. Backend integrates Supabase for structured querying and Cloudflare Workers for deployment/runtime orchestration. Includes semantic memory layers, replayable reasoning traces, and modular analytics workflows.",
+
+    result:
+      "Created a deployable AI-native analytics platform capable of conversational data exploration, contextual reasoning, and scalable cloud deployment.",
+  },
+
+  demoUrl: "https://rosteriq-ai.nikitasingh-sps.workers.dev/",
+  githubUrl: "https://github.com/n-ikitasingh/RosterIQ",
+},
+  {
+    id: 3,
     title: "Legal Document Summarization System",
     codename: "LEXIS",
     tagline: "Domain-specific NLP pipeline for structured summarization of legal text.",
@@ -84,37 +141,37 @@ export const projects: Project[] = [
     demoUrl: "#",
     githubUrl: "#",
   },
-  {
-    id: 3,
-    title: "Liver Tumor Segmentation",
-    codename: "MED-SEG",
-    tagline: "U-Net based segmentation system for tumor regions in CT imaging.",
+   {
+    id: 4,
+    title: "MindAura — Context-Aware Conversational AI",
+    codename: "MIND-AURA",
+    tagline: "Conversational AI for structured emotional interaction and context.",
     description:
-      "Medical imaging system that segments tumor regions from CT scans with clinically usable precision.",
-    technologies: ["Python", "TensorFlow", "Keras", "U-Net", "OpenCV", "CNNs"],
+      "Dialog system that maintains conversational context across turns and structures emotional responses.",
+    technologies: ["Dialogflow", "NLP", "JavaScript"],
     status: "COMPLETED",
     stats: [
-      { label: "Dice Score", value: "0.91" },
-      { label: "Modality", value: "CT" },
-      { label: "Architecture", value: "U-Net" },
+      { label: "Turns Tracked", value: "Multi" },
+      { label: "Engine", value: "Dialogflow" },
+      { label: "Mode", value: "Guided" },
     ],
     simple: {
-      problem: "Doctors need accurate tumor outlines from CT scans, but doing it manually is slow and inconsistent.",
-      approach: "A deep-learning model learns from labeled scans and outlines tumors automatically with high precision.",
-      architecture: "CT scans get preprocessed → fed into a U-Net model → output is a clean tumor mask, ready for clinical review.",
-      result: "Tumor regions are detected accurately enough to support real medical decisions.",
+      problem: "Most chatbots forget what you said two messages ago and respond like a generic FAQ — that doesn't work for emotional support.",
+      approach: "Build a chatbot that actually remembers context and replies with the right tone for each emotional state.",
+      architecture: "User message → intent recognition → context tracking across turns → structured, tone-aware response.",
+      result: "A focused prototype that holds a real conversation and feels supportive, not robotic.",
     },
     technical: {
-      problem: "Tumor boundaries in CT scans require pixel-level precision; weak segmentation reduces clinical usefulness and downstream radiomic reliability.",
-      approach: "A U-Net pipeline with HU windowing, normalization, augmentation, Dice+BCE optimization, and boundary-focused post-processing.",
-      architecture: "Preprocessing (HU windowing, normalization, augmentation) → U-Net with skip connections → composite Dice + BCE loss → morphological post-processing for boundary refinement and FP suppression.",
-      result: "Achieved 0.91 Dice score on validation, demonstrating strong localization quality suitable for clinical decision support.",
+      problem: "Supportive conversational systems fail when context decays across turns and responses lose tonal consistency under emotionally complex inputs.",
+      approach: "Dialogflow intents combined with multi-turn slot tracking and response structuring for tone continuity.",
+      architecture: "Intent classifier (Dialogflow) → multi-turn context manager with slot tracking → response template engine with tone constraints → conversation state persistence.",
+      result: "Maintains coherent multi-turn dialog with controlled tone, suitable for guided emotional support workflows.",
     },
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://mind-aura-two.vercel.app/",
+    githubUrl: "https://github.com/n-ikitasingh/Mind-Aura",
   },
   {
-    id: 4,
+    id: 5,
     title: "Gesture-Based Cursor & Text Editor",
     codename: "VISION-CTRL",
     tagline: "Real-time CV system for touchless cursor control and text interaction.",
@@ -143,32 +200,33 @@ export const projects: Project[] = [
     githubUrl: "#",
   },
   {
-    id: 5,
-    title: "AI Therapy Chatbot",
-    codename: "MIND-AURA",
-    tagline: "Conversational AI for structured emotional interaction and context.",
+    id: 6,
+    title: "Liver Tumor Segmentation",
+    codename: "MED-SEG",
+    tagline: "U-Net based segmentation system for tumor regions in CT imaging.",
     description:
-      "Dialog system that maintains conversational context across turns and structures emotional responses.",
-    technologies: ["Dialogflow", "NLP", "JavaScript"],
+      "Medical imaging system that segments tumor regions from CT scans with clinically usable precision.",
+    technologies: ["Python", "TensorFlow", "Keras", "U-Net", "OpenCV", "CNNs"],
     status: "COMPLETED",
     stats: [
-      { label: "Turns Tracked", value: "Multi" },
-      { label: "Engine", value: "Dialogflow" },
-      { label: "Mode", value: "Guided" },
+      { label: "Dice Score", value: "0.91" },
+      { label: "Modality", value: "CT" },
+      { label: "Architecture", value: "U-Net" },
     ],
     simple: {
-      problem: "Most chatbots forget what you said two messages ago and respond like a generic FAQ — that doesn't work for emotional support.",
-      approach: "Build a chatbot that actually remembers context and replies with the right tone for each emotional state.",
-      architecture: "User message → intent recognition → context tracking across turns → structured, tone-aware response.",
-      result: "A focused prototype that holds a real conversation and feels supportive, not robotic.",
+      problem: "Doctors need accurate tumor outlines from CT scans, but doing it manually is slow and inconsistent.",
+      approach: "A deep-learning model learns from labeled scans and outlines tumors automatically with high precision.",
+      architecture: "CT scans get preprocessed → fed into a U-Net model → output is a clean tumor mask, ready for clinical review.",
+      result: "Tumor regions are detected accurately enough to support real medical decisions.",
     },
     technical: {
-      problem: "Supportive conversational systems fail when context decays across turns and responses lose tonal consistency under emotionally complex inputs.",
-      approach: "Dialogflow intents combined with multi-turn slot tracking and response structuring for tone continuity.",
-      architecture: "Intent classifier (Dialogflow) → multi-turn context manager with slot tracking → response template engine with tone constraints → conversation state persistence.",
-      result: "Maintains coherent multi-turn dialog with controlled tone, suitable for guided emotional support workflows.",
+      problem: "Tumor boundaries in CT scans require pixel-level precision; weak segmentation reduces clinical usefulness and downstream radiomic reliability.",
+      approach: "A U-Net pipeline with HU windowing, normalization, augmentation, Dice+BCE optimization, and boundary-focused post-processing.",
+      architecture: "Preprocessing (HU windowing, normalization, augmentation) → U-Net with skip connections → composite Dice + BCE loss → morphological post-processing for boundary refinement and FP suppression.",
+      result: "Achieved 0.91 Dice score on validation, demonstrating strong localization quality suitable for clinical decision support.",
     },
-    demoUrl: "https://mind-aura-two.vercel.app/",
-    githubUrl: "https://github.com/n-ikitasingh/Mind-Aura",
+    demoUrl: "#",
+    githubUrl: "#",
   },
+   
 ];
