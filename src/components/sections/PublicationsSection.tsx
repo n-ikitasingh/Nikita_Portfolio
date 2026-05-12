@@ -28,8 +28,8 @@ const publications: Publication[] = [
     contribution: "Legal-BERT pipeline with rhetorical role labeling and constrained abstractive summarization, plus SHAP attributions for evidence-aware outputs.",
     impact: "~60% reduction in document processing effort with interpretable, structured summaries usable in legal review.",
     paperUrl: "https://ieeexplore.ieee.org/document/11411272",
-    githubUrl: "#",
-    demoUrl: "#",
+    githubUrl: "https://github.com/n-ikitasingh/Aurelius-AI",
+    demoUrl: "https://aurelius-legal-ai.vercel.app/",
   },
   {
     title: "DAL-GAN-PS",

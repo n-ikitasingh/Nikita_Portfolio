@@ -114,9 +114,9 @@ export const projects: Project[] = [
 },
   {
     id: 3,
-    title: "Legal Document Summarization System",
-    codename: "LEXIS",
-    tagline: "Domain-specific NLP pipeline for structured summarization of legal text.",
+    title: "Aurelius — Legal Document Summarization System",
+    codename: "AURELIUS",
+    tagline: "Explainable legal NLP pipeline for rhetorical analysis and structured summarization.",
     description:
       "A Legal-BERT–based pipeline that processes complex legal documents, identifies rhetorical structure, and produces interpretable abstractive summaries with model explanations.",
     technologies: ["Python", "Legal-BERT", "Transformers", "SHAP", "Hugging Face", "PyTorch"],
@@ -138,8 +138,8 @@ export const projects: Project[] = [
       architecture: "Legal-BERT contextual encoder → Rhetorical Role Labeling head → constrained abstractive decoder with faithfulness regularization → SHAP attribution layer surfacing evidence spans.",
       result: "Published IEEE work showing ~60% improvement in document processing efficiency and interpretable, structured summaries for legal review.",
     },
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://aurelius-legal-ai.vercel.app/",
+    githubUrl: "https://github.com/n-ikitasingh/Aurelius-AI",
   },
    {
     id: 4,
