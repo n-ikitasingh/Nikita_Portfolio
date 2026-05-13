@@ -95,10 +95,10 @@ export const HeroSection = () => {
               <NeonButton
                 variant="secondary"
                 size="lg"
-                href="/resume.pdf"
+                href="/Nikita_Resume.pdf"
                 icon={<Download className="w-5 h-5" />}
               >
-                Download Resume
+                View Resume
               </NeonButton>
             </div>
           </ScrollReveal>

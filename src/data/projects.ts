@@ -109,7 +109,7 @@ export const projects: Project[] = [
       "Created a deployable AI-native analytics platform capable of conversational data exploration, contextual reasoning, and scalable cloud deployment.",
   },
 
-  demoUrl: "https://rosteriq-ai.nikitasingh-sps.workers.dev/",
+  demoUrl: "https://rosteriq-ai.vercel.app/",
   githubUrl: "https://github.com/n-ikitasingh/RosterIQ",
 },
   {

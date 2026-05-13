@@ -33,7 +33,7 @@ const publications: Publication[] = [
   },
   {
     title: "DAL-GAN-PS",
-    venue: "iCONECCT 2025 · Best Paper",
+    venue: "IEEE · iCONECCT 2025 · Best Paper",
     tag: "AWARD",
     summary: "Dual-adversarial GAN with phonological constraint conditioning.",
     problem: "Structured generation tasks degrade when linguistic and phonological constraints are not modeled jointly.",
@@ -44,13 +44,13 @@ const publications: Publication[] = [
   },
   {
     title: "Visual Trajectory Fields",
-    venue: "IEEE (Camera Ready)",
-    tag: "ACCEPTED",
+    venue: "IEEE (Presented)",
+    tag: "ACCEPTED & PRESENTED",
     summary: "Trajectory-field framework for interpretable deep vision representations.",
     problem: "Deep vision models behave as black boxes when reasoning over perceptual dynamics.",
     contribution: "Trajectory-field framework analyzing how representations evolve across spatial inputs.",
     impact: "Camera-ready acceptance; produces interpretable views into model perception suitable for explainability tooling.",
-    paperUrl: "#",
+    paperUrl: "https://drive.google.com/file/d/1nXTl3jl2hBShnZo5o1inWA4cQpwiJyjR/view?usp=drivesdk",
     githubUrl: "#",
   },
 ];
@@ -141,7 +141,7 @@ export const PublicationsSection = () => {
     <SectionWrapper id="publications" title="Investigations // Research" subtitle="// PUBLICATIONS · CONTRIBUTIONS">
       <div className="flex justify-end mb-6">
         <a
-          href="#"
+          href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=4lb-8WgAAAAJ"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-mono uppercase tracking-wider bg-primary/10 text-primary border border-primary/20 hover:bg-primary/20 hover:border-primary/40 transition-colors"

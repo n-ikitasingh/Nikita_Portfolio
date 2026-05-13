@@ -9,7 +9,7 @@ import { useToast } from "@/hooks/use-toast";
 const EMAIL = "nikitasingh.uks@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/its-nikita-singh/";
 const GITHUB = "https://github.com/n-ikitasingh";
-const RESUME_URL = "/resume.pdf";
+const RESUME_URL = "/Nikita_Resume.pdf";
 
 const channels = [
   { icon: Mail, label: "Email", value: EMAIL, href: `mailto:${EMAIL}` },
@@ -61,13 +61,12 @@ export const ContactSection = () => {
                   <Mail className="w-4 h-4" /> Mail App
                 </a>
                 <a
-                  href={RESUME_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-md font-mono text-xs uppercase tracking-wider border border-primary/40 bg-primary/10 text-primary hover:bg-primary/15 transition-colors"
+                href={RESUME_URL}
+                download="Nikita_Singh_AI_ML_Engineer_Resume.pdf"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-md font-mono text-xs uppercase tracking-wider border border-primary/40 bg-primary/10 text-primary hover:bg-primary/15 transition-colors"
                 >
                   <Download className="w-4 h-4" /> Download Resume
-                </a>
+                  </a>
               </div>
             </div>
 
