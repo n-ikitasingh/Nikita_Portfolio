@@ -44,13 +44,13 @@ const publications: Publication[] = [
   },
   {
     title: "Visual Trajectory Fields",
-    venue: "IEEE (Presented)",
-    tag: "ACCEPTED & PRESENTED",
+    venue: "IEEE",
+    tag: "PUBLISHED",
     summary: "Trajectory-field framework for interpretable deep vision representations.",
     problem: "Deep vision models behave as black boxes when reasoning over perceptual dynamics.",
     contribution: "Trajectory-field framework analyzing how representations evolve across spatial inputs.",
     impact: "Camera-ready acceptance; produces interpretable views into model perception suitable for explainability tooling.",
-    paperUrl: "https://drive.google.com/file/d/1nXTl3jl2hBShnZo5o1inWA4cQpwiJyjR/view?usp=drivesdk",
+    paperUrl: "https://ieeexplore.ieee.org/document/11536040",
     githubUrl: "#",
   },
 ];
