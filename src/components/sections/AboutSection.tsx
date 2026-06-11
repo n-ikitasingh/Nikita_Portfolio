@@ -31,7 +31,7 @@ const tags = [
 ];
 
 const metrics = [
-  { label: "CGPA", value: "8.6", note: "B.Tech CSE (AI/ML)" },
+  { label: "CGPA", value: "8.7", note: "B.Tech CSE (AI/ML)" },
   { label: "Dice Score", value: "0.91", note: "U-Net · Liver Tumor Segmentation" },
   { label: "Pipeline Speed-up", value: "~60%", note: "Legal NLP Summarization" },
   { label: "IEEE Publications", value: "3", note: "Incl. Best Paper Award" },
